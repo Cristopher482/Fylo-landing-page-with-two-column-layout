@@ -1,0 +1,128 @@
+@media screen and (max-width: 414px) {
+  .header {
+    justify-content: space-around;
+  }
+  .nav {
+    flex-basis: 50%;
+    font-weight: 10px;
+  }
+
+  .header-logo {
+    margin-left: 25px;
+  }
+
+  .header-logo__item {
+    width: 90px;
+  }
+
+  /*----------------SECTION-1---------------------*/
+  .main-section--1 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .main-information {
+    margin-left: 0px;
+  }
+  .main-information__tittle {
+    width: 80%;
+    text-align: center;
+  }
+  .main-information__h1 {
+    font-size: 23px;
+  }
+
+  .main-information__paragraph {
+    font-size: 15px;
+  }
+
+  .main-form__label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .main-form__submit {
+    width: 100%;
+  }
+
+  /*----------------SECTION-2---------------------*/
+  .main-section--2 {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+
+  .main-information__h2 {
+    font-size: 16px;
+  }
+
+  .main-information__paragraph--2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 13px;
+  }
+
+  .main-information__tittle--2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+  }
+
+  .opinion-container {
+    width: 100%;
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .opinion-container > div {
+    padding: 13px;
+  }
+  /*----------------SECTION-3---------------------*/
+
+  .main-section--3 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-form__label--3 {
+    width: 100%;
+  }
+
+  .main-form__submit--3 {
+    width: 100%;
+  }
+  .collaborate__email {
+    flex-basis: 100%;
+    height: auto;
+  }
+
+  .main-information__paragraph--3 {
+    color: white;
+    font-size: 16px;
+  }
+
+  /*----------------FOOTER---------------------*/
+
+  .footer-section {
+    flex-direction: column;
+    align-items: flex-start;
+    height: 600px;
+  }
+  .footer-section > div {
+    margin: 30px 0 0 20px;
+    flex-basis: 25%;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .footer-section > .socialnetwork {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  .footer-section__icon {
+    margin-bottom: 30px;
+  }
+}
