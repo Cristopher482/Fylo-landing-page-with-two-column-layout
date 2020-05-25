@@ -46,7 +46,7 @@ body {
   margin-left: 50px;
 }
 .main-information__tittle {
-  width: 55%;
+  width: 60%;
   color: var(--text-color);
 }
 
@@ -64,7 +64,7 @@ body {
 }
 
 .main-form__label {
-  width: 60%;
+  width: 59%;
   height: 36px;
   border-radius: 4px;
   border: 1px solid gray;
@@ -165,7 +165,7 @@ body {
 }
 
 .main-form__submit--3 {
-  width: 50%;
+  width: 55%;
   margin-top: 10px;
   box-shadow: 0 0 0;
 }
